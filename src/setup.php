@@ -41,10 +41,9 @@ add_action('after_setup_theme', function () {
      * @link https://developer.wordpress.org/themes/functionality/custom-headers/
      */
       $args = array(
-          'default-image'      => get_template_directory_uri() . 'img/default-image.jpg',
           'default-text-color' => '000',
           'width'              => 1500,
-          'height'             => 150,
+          'height'             => 450,
           'flex-width'         => true,
           'flex-height'        => true,
       );

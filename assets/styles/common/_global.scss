@@ -11,19 +11,24 @@ body {
   }
 
   .container {
-    background-color: #eee;
+    padding: 10px 0;
 
     li {
-      background-color: #333;
       max-width: 115px;
       text-align: center;
     }
+  }
+
+  .sticky-nav {
+    background-color: $background;
+    border-bottom: 1px solid $brand-accent;
   }
 }
 
 #site-header {
   margin: 0 auto;
   max-width: 1500px;
+  position: relative;
 
   img {
     max-width: 100%;
@@ -32,4 +37,17 @@ body {
 
 .wrap {
   padding-top: 60px;
+}
+
+.site-info {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  .content {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
 }
