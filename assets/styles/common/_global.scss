@@ -1,0 +1,35 @@
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.banner {
+  ul {
+    flex-flow: wrap row;
+  }
+
+  .container {
+    background-color: #eee;
+
+    li {
+      background-color: #333;
+      max-width: 115px;
+      text-align: center;
+    }
+  }
+}
+
+#site-header {
+  margin: 0 auto;
+  max-width: 1500px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.wrap {
+  padding-top: 60px;
+}
