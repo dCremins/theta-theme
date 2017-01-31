@@ -1,15 +1,20 @@
-@import 'common/variables';
+
 
 // Import npm dependencies
 @import '~font-awesome/scss/font-awesome';
 @import '~bootstrap/scss/bootstrap';
 @import '~breakpoint-sass/stylesheets/breakpoint';
+@import '~modularscale-sass/stylesheets/modular-scale';
+
+@import 'common/accessibility';
+@import 'common/variables';
 
 @import 'common/global';
 @import 'components/buttons';
 @import 'components/comments';
 @import 'components/forms';
 @import 'components/wp-classes';
+@import 'components/icon';
 @import 'layouts/header';
 @import 'layouts/sidebar';
 @import 'layouts/footer';

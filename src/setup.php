@@ -40,14 +40,24 @@ add_action('after_setup_theme', function () {
      * Register Banner Image
      * @link https://developer.wordpress.org/themes/functionality/custom-headers/
      */
-      $args = array(
-          'default-text-color' => '000',
-          'width'              => 1500,
-          'height'             => 450,
-          'flex-width'         => true,
-          'flex-height'        => true,
-      );
-      add_theme_support( 'custom-header', $args );
+    $args = array(
+        'default-text-color' => 'fff',
+        'width'              => 1500,
+        'height'             => 450,
+        'flex-width'         => true,
+        'flex-height'        => true,
+    );
+    add_theme_support( 'custom-header', $args );
+
+    /**
+     * Register Logo Image
+     * @link https://developer.wordpress.org/themes/functionality/custom-logo/
+     */
+  	add_theme_support( 'custom-logo', array(
+  		'height'      => 100,
+  		'width'       => 100,
+  		'flex-width' => true,
+  	) );
 
 
     /**
@@ -96,6 +106,10 @@ add_action('widgets_init', function () {
     register_sidebar([
         'name'          => __('Primary', 'sage'),
         'id'            => 'sidebar-primary'
+    ] + $config);
+    register_sidebar([
+        'name'          => __('Home', 'sage'),
+        'id'            => 'sidebar-home'
     ] + $config);
     register_sidebar([
         'name'          => __('Footer', 'sage'),

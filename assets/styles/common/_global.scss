@@ -1,53 +1,73 @@
 
 html,
 body {
+  background-color: $background;
   height: 100%;
   width: 100%;
 }
 
-.banner {
-  ul {
-    flex-flow: wrap row;
-  }
-
-  .container {
-    padding: 10px 0;
-
-    li {
-      max-width: 115px;
-      text-align: center;
-    }
-  }
-
-  .sticky-nav {
-    background-color: $background;
-    border-bottom: 1px solid $brand-accent;
-  }
+%header {
+  font-family: futura-pt;
+  line-height: 1.5;
+  margin-bottom: 1em;
 }
 
-#site-header {
-  margin: 0 auto;
-  max-width: 1500px;
-  position: relative;
-
-  img {
-    max-width: 100%;
-  }
+h1 {
+  @extend %header;
+  color: $primary;
+  font-size: ms(6);
+  font-weight: 700;
 }
 
-.wrap {
-  padding-top: 60px;
+h2 {
+  @extend %header;
+  color: $accent;
+  font-size: ms(5);
+  font-weight: 300;
 }
 
-.site-info {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
+h3 {
+  @extend %header;
+  color: $primary;
+  font-size: ms(4);
+  font-weight: 700;
+}
 
-  .content {
-    margin: 0 auto;
-    text-align: center;
-    width: 80%;
+h4 {
+  @extend %header;
+  color: $accent;
+  font-size: ms(3);
+  font-weight: 300;
+}
+
+h5 {
+  @extend %header;
+  color: $primary;
+  font-size: ms(2);
+  font-weight: 700;
+  margin-bottom: .3em;
+}
+
+h6 {
+  @extend %header;
+  color: $text;
+  font-size: ms(1);
+  font-weight: 300;
+  margin-bottom: .3em;
+}
+
+p,
+a {
+  color: $text;
+  font-family: Garamond;
+  font-size: ms(0);
+}
+
+a {
+  color: $primary;
+
+  &:hover {
+    color: $accent;
+    text-decoration: underline;
   }
 }
