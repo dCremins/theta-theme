@@ -1,5 +1,5 @@
 # [Sage](https://roots.io/sage/)
-[![Stories in Ready](https://badge.waffle.io/dCremins/theta-theme.svg?label=ready&title=Ready)](http://waffle.io/dCremins/theta-theme)
+[![Stories in Ready](https://badge.waffle.io/dCremins/theta-theme.svg?label=in%20progress&title=In%20Progress)](http://waffle.io/dCremins/theta-theme)
 [![Build Status](https://travis-ci.org/dCremins/theta-theme.svg?branch=master)](https://travis-ci.org/dCremins/theta-theme)
 [![Build Status](https://travis-ci.org/roots/sage.svg?branch=master)](https://travis-ci.org/roots/sage)
 
