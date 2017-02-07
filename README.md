@@ -1,6 +1,5 @@
 # [Sage](https://roots.io/sage/)
 [![Stories in Ready](https://badge.waffle.io/dCremins/theta-theme.svg?label=ready&title=Ready)](http://waffle.io/dCremins/theta-theme)
-[![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
 [![Build Status](https://travis-ci.org/dCremins/theta-theme.svg?branch=master)](https://travis-ci.org/dCremins/theta-theme)
 [![Build Status](https://travis-ci.org/roots/sage.svg?branch=master)](https://travis-ci.org/roots/sage)
 
