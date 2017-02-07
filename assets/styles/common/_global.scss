@@ -6,6 +6,15 @@ body {
   width: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex: 1;
+}
+
 %header {
   font-family: futura-pt;
   line-height: 1.5;
@@ -56,8 +65,7 @@ h6 {
   margin-bottom: .3em;
 }
 
-p,
-a {
+p {
   color: $text;
   font-family: Garamond;
   font-size: ms(0);

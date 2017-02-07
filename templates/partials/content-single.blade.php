@@ -7,7 +7,10 @@
     @php(the_content())
   </div>
   <footer>
-    {!! wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
+    <nav class="post-nav row">
+      <div class="previous col"><?php previous_post_link( '%link', '&larr; %title' ); ?></div>
+      <div class="next col"><?php next_post_link( '%link', '%title &rarr;' ); ?></div>
+    </nav>
   </footer>
   @php(comments_template('/templates/partials/comments.blade.php'))
 </article>
