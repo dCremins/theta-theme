@@ -1,18 +1,13 @@
 # [Sage](https://roots.io/sage/)
-[![Packagist](https://img.shields.io/packagist/vpre/roots/sage.svg?style=flat-square)](https://packagist.org/packages/roots/sage)
+[![Stories in Ready](https://badge.waffle.io/dCremins/theta-theme.svg?label=ready&title=Ready)](http://waffle.io/dCremins/theta-theme)
 [![devDependency Status](https://img.shields.io/david/dev/roots/sage.svg?style=flat-square)](https://david-dm.org/roots/sage#info=devDependencies)
-[![Build Status](https://img.shields.io/travis/roots/sage.svg?style=flat-square)](https://travis-ci.org/roots/sage)
+[![Build Status](https://travis-ci.org/dCremins/theta-theme.svg?branch=master)](https://travis-ci.org/dCremins/theta-theme)
+[![Build Status](https://travis-ci.org/roots/sage.svg?branch=master)](https://travis-ci.org/roots/sage)
 
 Sage is a WordPress starter theme with a modern development workflow.
 
 **Sage 9 is in active development and is currently in beta. The `master` branch tracks Sage 9 development. If you want a stable version, use the [latest Sage 8 release](https://github.com/roots/sage/releases/latest).**
-
-## Features
-
-* Sass for stylesheets
-* ES6 for JavaScript
-* [Webpack](https://webpack.github.io/) for compiling assets, optimizing images, and concatenating and minifying files
-* [Browsersync](http://www.browsersync.io/) for synchronized browser testing
+ 
 * [Laravel's Blade](https://laravel.com/docs/5.3/blade) as a templating engine
 * CSS framework options:
   * [Bootstrap 4](http://getbootstrap.com/)
