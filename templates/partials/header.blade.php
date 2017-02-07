@@ -1,6 +1,6 @@
 <header class="banner">
     <div class="site-header">
-        <?php if ( get_header_image() ) : ?>
+        <?php if (get_header_image()) : ?>
           <?php the_custom_header_markup(); ?>
         <?php endif; ?>
         <div class="site-info">
@@ -13,8 +13,8 @@
     </div>
   <div class="sticky-nav">
     <nav class="container">
-      <?php $custom_logo_id = get_theme_mod( 'custom_logo' );
-      $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+      <?php $custom_logo_id = get_theme_mod('custom_logo');
+      $image = wp_get_attachment_image_src($custom_logo_id, 'full');
       $home = get_home_url(); ?>
       @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'items_wrap' => '<ul id="%1$s" class="%2$s"><li><a class="site-logo" href="'.$home.'"><img src="'.$image[0].'"></a></li> %3$s</ul>', 'container' => false, 'menu_class' => 'nav']) !!}

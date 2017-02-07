@@ -46,18 +46,18 @@ add_action('after_setup_theme', function () {
         'height'             => 450,
         'flex-width'         => true,
         'flex-height'        => true,
-    );
-    add_theme_support( 'custom-header', $args );
+      );
+    add_theme_support('custom-header', $args);
 
     /**
      * Register Logo Image
      * @link https://developer.wordpress.org/themes/functionality/custom-logo/
      */
-  	add_theme_support( 'custom-logo', array(
-  		'height'      => 100,
-  		'width'       => 100,
-  		'flex-width' => true,
-  	) );
+    add_theme_support('custom-logo', array(
+     'height'      => 100,
+     'width'       => 100,
+     'flex-width' => true,
+    ));
 
 
     /**
