@@ -1,13 +1,10 @@
 
-
 // Import npm dependencies
 @import '~bootstrap/scss/bootstrap';
 @import '~breakpoint-sass/stylesheets/breakpoint';
 @import '~modularscale-sass/stylesheets/modular-scale';
-
 @import 'common/accessibility';
 @import 'common/variables';
-
 @import 'common/global';
 @import 'components/buttons';
 @import 'components/comments';
@@ -20,3 +17,4 @@
 @import 'layouts/pages';
 @import 'layouts/posts';
 @import 'layouts/tinymce';
+@import 'common/helper';
